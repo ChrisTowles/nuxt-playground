@@ -1,63 +1,43 @@
-# Nuxt 3 Minimal Starter
+# Nuxt Playground
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+Created as a playground to learn [Nuxt 3](https://nuxt.com/) and [nuxt ui](https://ui.nuxtlabs.com/)
+
+The goal is to create a working example before integrating into a larger project at work.
+
+- [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
+- [Nuxt Awesome](https://github.com/nuxt-community/awesome-nuxt)
+- [nuxt ui](https://ui.nuxtlabs.com/)
+
+
+
+## Goals
+
+- [x] Nuxt 3
+- [ ] breakup folder layout as areas which have their components, pages, layouts, etc 
+- [ ] Component UI library
+  - [ ] Nuxt UI with tailwind
+- [ ] component unit tests
+- [ ] e2e tests with playwright
+- [ ] Storybook or similar for component testing?
+- [ ] JWT auth
 
 ## Setup
 
 Make sure to install the dependencies:
 
-```bash
-# npm
-npm install
 
-# pnpm
+```bash
+
 pnpm install
 
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+# Start the development server 
 pnpm run dev
 
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
+# Build the application for production
 pnpm run build
 
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
+# Locally preview production build:
 pnpm run preview
 
-# yarn
-yarn preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
