@@ -17,6 +17,14 @@ The goal is to create a working example before integrating into a larger project
 - [ ] breakup folder layout as areas which have their components, pages, layouts, etc 
 - [ ] Component UI library
   - [ ] Nuxt UI with tailwind
+  - [x] ~~Native~~
+  - [x] ~~[flowbite](https://github.com/themesberg/flowbite)~~ not native vue 3 enough
+  - [x] ~~[tailwindui](https://tailwindui.com/)~~ not really vue components
+  - [ ] [quasar](https://quasar.dev/vue-components/)
+  - [ ] [vuetifyjs](https://next.vuetifyjs.com/en/introduction/roadmap/)
+    - check the discord for vue 3 info, the website is not up to date
+- [ ] Form validation
+  - [ ] zod and vee validate
 - [ ] component unit tests
 - [ ] e2e tests with playwright
 - [ ] Storybook or similar for component testing?
