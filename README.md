@@ -22,7 +22,15 @@ The goal is to create a working example before integrating into a larger project
   - [x] ~~[tailwindui](https://tailwindui.com/)~~ not really vue components
   - [ ] [quasar](https://quasar.dev/vue-components/)
   - [ ] [vuetifyjs](https://next.vuetifyjs.com/en/introduction/roadmap/)
-    - check the discord for vue 3 info, the website is not up to date
+    - check the discord for vue 3 info, the website is not up to date, Datatable still isn't ready. [good summary comment](https://www.reddit.com/r/vuejs/comments/135v44s/comment/jiofprd/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+  - [ ] [primevue](https://primevue.org/) so this is a wrapper around primefaces, which is a wrapper around jquery.
+  - [ ] [element plus](https://element-plus.org/#/en-US)
+  - [ ] [buefy](https://buefy.org/)
+  - [ ] ~~[bootstrap vue](https://bootstrap-vue.org/)~~ no vue 3 support
+  - [ ] [anu](https://anu-vue.netlify.app/)
+    - really new Vue framework build using UnoCSS & VueUse.
+    -  
+  - [ ] 
 - [ ] Form validation
   - [ ] zod and vee validate
 - [ ] component unit tests
