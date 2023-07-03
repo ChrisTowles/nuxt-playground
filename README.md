@@ -21,6 +21,8 @@ The goal is to create a working example before integrating into a larger project
   - [x] ~~[flowbite](https://github.com/themesberg/flowbite)~~ not native vue 3 enough
   - [x] ~~[tailwindui](https://tailwindui.com/)~~ not really vue components
   - [ ] [quasar](https://quasar.dev/vue-components/)
+    - [layout builder](https://quasar.dev/layout-builder/)
+    - [quasar.dev layout examples](https://quasar.dev/layout/gallery/) 
   - [ ] [vuetifyjs](https://next.vuetifyjs.com/en/introduction/roadmap/)
     - check the discord for vue 3 info, the website is not up to date, Datatable still isn't ready. [good summary comment](https://www.reddit.com/r/vuejs/comments/135v44s/comment/jiofprd/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
   - [ ] [primevue](https://primevue.org/) so this is a wrapper around primefaces, which is a wrapper around jquery.
