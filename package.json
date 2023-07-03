@@ -4,18 +4,40 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "start": "node .output/server/index.mjs",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.39.6",
+    "@iconify-json/carbon": "^1.1.18",
+    "@iconify-json/twemoji": "^1.1.11",
     "@nuxt/devtools": "latest",
-    "@types/node": "^20.3.3",
-    "nuxt": "^3.6.1",
-    "nuxt-quasar-ui": "^2.0.2"
-  },
-  "dependencies": {
+    "@nuxtjs/color-mode": "^3.3.0",
+    "@pinia/nuxt": "^0.4.11",
     "@quasar/extras": "^1.16.4",
-    "quasar": "^2.12.2"
+    "@types/node": "^20.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "@vite-pwa/nuxt": "^0.1.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "@vueuse/nuxt": "^10.2.1",
+    "consola": "^3.2.2",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.15.1",
+    "nuxt": "^3.6.1",
+    "nuxt-quasar-ui": "^2.0.2",
+    "pinia": "^2.1.4",
+    "prettier": "^2.8.8",
+    "quasar": "^2.12.2",
+    "typescript": "^5.1.6",
+    "vue-eslint-parser": "^9.3.1",
+    "vue-tsc": "^1.8.3"
   }
 }
