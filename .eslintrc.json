@@ -17,14 +17,23 @@
     "plugins": [
         "@typescript-eslint"
     ],
-    "rules": {
-        // not needed for vue 3
-        "vue/no-multiple-template-root": "off"
-    },
     "settings": {
         "import/core-modules": [
             "vue",
             "vuex"
         ] // these modules are included in nuxt.js
+    },
+    "rules": {
+        // not needed for vue 3
+        "vue/no-multiple-template-root": "off",
+        // Indent with 4 spaces
+        "indent": [
+            "error",
+            4
+        ],
+        "@typescript-eslint/indent": [
+            "error",
+            4
+        ]
     }
 }
