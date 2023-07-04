@@ -32,15 +32,15 @@
 
       <q-tabs align="left">
         <q-route-tab
-          to="/page1"
+          to="/page-1"
           label="Page One"
         />
         <q-route-tab
-          to="/page2"
+          to="/page-2"
           label="Page Two"
         />
         <q-route-tab
-          to="/page3"
+          to="/page-3"
           label="Page Three"
         />
       </q-tabs>
