@@ -3,20 +3,28 @@
     "parser": "vue-eslint-parser",
     "parserOptions": {
         "parser": "@typescript-eslint/parser",
+        "project": [
+            "./tsconfig.json"
+        ]
     },
     "extends": [
         "plugin:vue/strongly-recommended",
         "eslint:recommended",
         "@vue/typescript/recommended",
-        "prettier"
+        "airbnb-base",
+        "airbnb-typescript/base"
     ],
     "plugins": [
-        "@typescript-eslint",
-        "prettier"
+        "@typescript-eslint"
     ],
     "rules": {
-        "prettier/prettier": "error",
         // not needed for vue 3
         "vue/no-multiple-template-root": "off"
+    },
+    "settings": {
+        "import/core-modules": [
+            "vue",
+            "vuex"
+        ] // these modules are included in nuxt.js
     }
 }
