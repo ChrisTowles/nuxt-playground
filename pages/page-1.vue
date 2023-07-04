@@ -1,6 +1,6 @@
 <template>
   <div class="text-h3 q-pa-md">
-    Card
+    Page 1
   </div>
   <div class="q-pa-md row items-start q-gutter-md">
     <q-card class="my-card">

@@ -80,7 +80,7 @@ const rightDrawerOpen = ref(false);
 const toggleLeftDrawer = () => {
     leftDrawerOpen.value = !leftDrawerOpen.value;
 };
-c
+
 const toggleRightDrawer = () => {
     rightDrawerOpen.value = !rightDrawerOpen.value;
 };
