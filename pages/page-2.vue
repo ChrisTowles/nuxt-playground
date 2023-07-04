@@ -9,7 +9,6 @@
       </q-card-section>
     </q-card>
 
-
     <q-card
       flat
       bordered
