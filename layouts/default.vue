@@ -1,0 +1,87 @@
+<template>
+  <q-layout view="lHr lpR lfr">
+    <q-header
+      elevated
+      class="bg-primary text-white"
+      height-hint="98"
+    >
+      <q-toolbar>
+        <q-btn
+          dense
+          flat
+          round
+          icon="menu"
+          @click="toggleLeftDrawer"
+        />
+
+        <q-toolbar-title>
+          <q-avatar>
+            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
+          </q-avatar>
+          Title
+        </q-toolbar-title>
+
+        <q-btn
+          dense
+          flat
+          round
+          icon="menu"
+          @click="toggleRightDrawer"
+        />
+      </q-toolbar>
+
+      <q-tabs align="left">
+        <q-route-tab
+          to="/page1"
+          label="Page One"
+        />
+        <q-route-tab
+          to="/page2"
+          label="Page Two"
+        />
+        <q-route-tab
+          to="/page3"
+          label="Page Three"
+        />
+      </q-tabs>
+    </q-header>
+
+    <q-drawer
+      v-model="leftDrawerOpen"
+      side="left"
+      overlay
+      behavior="mobile"
+      elevated
+    >
+      <!-- drawer content -->
+    </q-drawer>
+
+    <q-drawer
+      v-model="rightDrawerOpen"
+      side="right"
+      behavior="mobile"
+      elevated
+    >
+      <!-- drawer content -->
+    </q-drawer>
+
+    <q-page-container>
+      <slot />
+    </q-page-container>
+  </q-layout>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const leftDrawerOpen = ref(false);
+const rightDrawerOpen = ref(false);
+
+const toggleLeftDrawer = () => {
+    leftDrawerOpen.value = !leftDrawerOpen.value;
+};
+c
+const toggleRightDrawer = () => {
+    rightDrawerOpen.value = !rightDrawerOpen.value;
+};
+</script>
