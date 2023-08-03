@@ -16,8 +16,12 @@ The goal is to create a working example before integrating into a larger project
 - [x] Nuxt 3
 - [ ] breakup folder layout as areas which have their components, pages, layouts, etc 
 - [ ] Component UI library
-  - [x] ~~[Nuxt UI](https://ui.nuxtlabs.com/getting-started/installation) with tailwind~~
+  - [x] [Nuxt UI](https://ui.nuxtlabs.com/getting-started/installation) with tailwind
     - Still to new as of 2023-07-18
+    - supported by company so not likely to die as they have built their paid products with it.
+    - quickly adding features every 2 weeks
+    - over 2 years old but just recently opened source.
+    - made by names we know like Daniel roe and [Anthony Fu](https://github.com/antfu).  
   - [x] ~~[Native UI](https://www.naiveui.com/en-US/os-theme/docs/introduction)~~
     - Used by Patrick Towles Team, has bugs due to its port from vue 2 and not being fixed very fast. having to patch it
   - [x] ~~[flowbite](https://github.com/themesberg/flowbite)~~ 
