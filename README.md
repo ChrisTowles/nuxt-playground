@@ -41,12 +41,6 @@ The goal is to create a working example before integrating into a larger project
   - [x] ~~[anu](https://anu-vue.netlify.app/)~~
     - really new Vue framework build using UnoCSS & VueUse.
     - too small of a community to use for work
-- [ ] Form validation
-  - [ ] zod and vee validate
-- [ ] component unit tests
-- [ ] e2e tests with playwright
-- [ ] Storybook or similar for component testing?
-- [ ] JWT auth
 
 
 ## Components to Test
@@ -59,7 +53,7 @@ The goal is to create a working example before integrating into a larger project
   - sort
 - Form
   - validation
-    - zod and veeValidate
+    - zod, joi and veeValidate
   - submit
 - Vue 3
 
